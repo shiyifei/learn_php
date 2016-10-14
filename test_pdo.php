@@ -1,5 +1,5 @@
 <?php
-    $dbn =  new PDO('mysql:host=192.168.1.160;dbname=test;','root','SYF!123');
+    $dbn =  new PDO('mysql:host=192.168.1.160;dbname=test;','root','secret');
     $dbn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
     $dbn->exec('set names utf8');
     
