@@ -1,13 +1,24 @@
+<html>
+<head>
+	<title>testing pdo</title>
+</head>
+<body>
+
+
 <?php
+	echo 'arrive here,111<br/>';
+	$pdo = new PDO('mysql:host=192.168.3.125:3306;dbname=test','root','SYF!123');
+	echo 'arrive here,222<br/>';
+	$query = 'select * from users ';
+	$result = $pdo->query($query);
+	$rows = $result->fetchAll();
+	echo '<ul>';
+	foreach($rows as $row) {
+		echo '<li>'.$row['username'].'&nbsp;'.$row['age'].'&nbsp;'.$row['email'].'</li>';
+	}
+	echo '</ul>';
 
-
-    $dbn =  new PDO('mysql:host=192.168.1.199;dbname=test;','test','secret');
-    $dbn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-    $dbn->exec('set names utf8');
-    
-    $sql  = 'insert into users(username,email) values(:username,:email)';
-    $stmt = $dbn->prepare($sql);
-    $stmt->execute(array(':username'=>'wangzhongwei',':email'=>'wangzhongwei@163.com'));
-    
-    echo $dbn->lastinsertid();
 ?>
+
+</body>
+</html>
