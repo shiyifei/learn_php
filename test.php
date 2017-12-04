@@ -1,5 +1,6 @@
 <?php
 //header('Content-Type: text/html;charset=utf-8');
+//这里测试接口返回值
 
 $result = array('code'=>'000000','msg'=>'ok','data'=>'');
 echo json_encode($result);
