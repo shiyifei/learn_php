@@ -1,7 +1,10 @@
 <?php
 header('Content-Type: text/html;charset=utf-8'); //modified by shiyf master
 
-$result = array('code'=>'000000','msg'=>'ok','data'=>'');
+$a = 1;
+$b = 132;
+
+$result = array('code'=>'000000','msg'=>'ok','data'=>['a'=>$a,'b'=>$b,'c'=>($a+$b)]);
 echo json_encode($result);
 return;
 
