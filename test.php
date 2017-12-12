@@ -1,5 +1,5 @@
 <?php
-header('Content-Type: text/html;charset=utf-8'); //modified by shiyf master
+header('Content-Type: text/html;charset=utf-8'); //modified by shiyf 
 
 $a = 1;
 $b = 132;
