@@ -61,7 +61,7 @@ function biddingCar() {
     $watchKey = 'bidOrder:'.$order_id;
     $redis->watch($watchKey);
 
-    $pdo = new PDO('mysql:host=192.168.3.125:3306;dbname=test','root','SYF!123');
+    $pdo = new PDO('mysql:host=192.168.3.125:3306;dbname=test','root','secret');
     try{
         $pdo->beginTransaction();
         //插入出价表
