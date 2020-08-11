@@ -2,9 +2,9 @@
 
    $myinfo = "in upload_h5.php,_POST:".json_encode($_POST)."\n";
     file_put_contents('/tmp/shiyf.log', $myinfo, FILE_APPEND);
-    /*
+    
     $myinfo = "in upload_h5.php,_FILES:".var_export($_FILES, TRUE)."\n";
-    file_put_contents('/tmp/shiyf.log', $myinfo, FILE_APPEND);*/
+    file_put_contents('/tmp/shiyf.log', $myinfo, FILE_APPEND);
 
 
 
@@ -29,7 +29,7 @@
     
 
     // 生成的文件名  
-    $photo = time().$ext;  
+    $photo = './images/'.time().$ext;  
       
     // 生成文件  
     file_put_contents($photo, base64_decode($data), true);  

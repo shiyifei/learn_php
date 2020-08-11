@@ -23,7 +23,7 @@
         //读取完成
         reader.onload = function(e) {
             // ajax 上传图片  
-            $.post("", {img: e.target.result}, function(ret) { 
+            $.post("upload_h5.php", {img: e.target.result}, function(ret) { 
                 if (ret.img!='') {  
                     alert('upload success');  
                     $('#showimg').html('<img src="' + ret.img + '">');  
@@ -71,8 +71,9 @@
     <br />
     <input type="file" name="file" id="imgFile" onchange="imgPreview(this)" />
     <br/>
-    <!-- <input type="button" id="btnUpload" value="上传" onclick="upload()" /><div id="progress" style="width:200px;height:24px;"></div> -->
+    <!-- <input type="button" id="btnUpload" value="上传" onclick="upload()" /> -->
+    <div id="progress" style="width:200px;height:24px;"></div>
     <p id="showimg"></p>
 </body>
-<script type="text/javascript" src="../Public/js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
 </html>

@@ -1,6 +1,66 @@
 <?php
 header('Content-Type: text/html;charset=utf-8'); //modified by shiyf 
 
+
+$records = array(
+    array(
+        'id' => 2135,
+        'first_name' => 'John',
+        'last_name' => 'Doe',
+    ),
+    array(
+        'id' => 3245,
+        'first_name' => 'Sally',
+        'last_name' => 'Smith',
+    ),
+    array(
+        'id' => 5342,
+        'first_name' => 'Jane',
+        'last_name' => 'Jones',
+    ),
+    array(
+        'id' => 5623,
+        'first_name' => 'Peter',
+        'last_name' => 'Doe',
+    )
+);
+
+$arrNames = array_column($records, null, 'id');
+print_r($arrNames);
+echo '<hr/>';
+
+foreach($arrNames as $k=>$v) {
+	unset($arrNames[$k]['id']);
+}
+print_r($arrNames);
+ echo '<hr/>';
+$arrNames = array_column($records, 'first_name,last_name', 'id');
+print_r($arrNames);
+
+return;
+
+
+
+$date = '2020-06-30 08:00:00';
+list($year,$month,$day) = explode('-', substr($date, 0, 10));
+
+var_dump($year, $month, $day);
+$month = intval($month);
+$day = intval($day);
+var_dump($year, $month, $day);
+
+return;
+
+$input = "504®ist_date";
+$output = is_numeric($input);
+$a = ($output === false);
+var_dump($output, $a);
+return;
+
+
+
+echo "arrive here";
+
 $a = 1;
 $b = 132;
 
