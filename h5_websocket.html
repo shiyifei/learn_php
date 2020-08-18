@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>测试webSocket</title>
+    <script type="text/javascript">
+    var ws;
+    function initialPage()
+    {
+        if ("WebSocket" in window) {
+            alert("您的浏览器支持 websocket");
+            // ws = new WebSocket("ws://192.168.56.102:18309/echo");   //简单字符串
+            // ws = new WebSocket("ws://192.168.56.102:18309/chat");      //json对象
+            ws = new WebSocket("ws://192.168.56.102:18309/test");       //token解析
+
+            ws.onopen = function() {
+               console.log("connection is opened");
+               ws.send("what are you doing now?");
+               alert("数据发送中...");
+            }
+
+            ws.onmessage = function(evt) {
+                let recv_msg = evt.data;
+                console.log("received data is:"+recv_msg);
+                alert("收到服务端发来的数据");
+            }
+
+            ws.onclose = function() {
+                console.log("on close(), connection closed");
+                ws.close();
+                alert("连接已关闭");
+            }
+
+            ws.onerror = function(event) {
+                console.log("on error(), error:"+event.data);
+            }
+        } else {
+            alert("您的浏览器不支持websocket");
+        }
+    }
+    function sendMessage()
+    {
+        var msg = document.getElementById("txtArea").value;
+        console.log("msg="+msg);
+        ws.send(msg);
+    }
+    function closeSocket()
+    {
+        ws.close();
+    }
+    function serverSocketClose()
+    {
+        ws.send("socketServerClose");
+    }
+    </script>
+</head>
+<body onload="initialPage()">
+   <div style="width:100%;height:300px;">
+        <textarea rows="10" cols="20" id="txtArea"></textarea>
+        <input type="button" onclick="sendMessage()" value="发送消息" />
+        <input type="button" onclick="closeSocket()" value="客户端关闭连接" />
+        <input type="button" onclick="serverSocketClose()" value="服务端关闭连接" />
+   </div>
+</body>
+</html>
+
+

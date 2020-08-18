@@ -1,26 +1,38 @@
 <?php
-header('Content-Type:text/html; charset=utf-8');
 
-$input = file_get_contents('/tmp/debug.log');
-echo '内容长度:'.strlen($input);
-echo '<br/>';
+$json = file_get_contents('./response.txt');
 
-$start_time = microtime(TRUE);
+echo "before compressing, total length is:".(strlen($json)/1024/1024)."M \n";
 
-$input_compressed  = bzcompress($input,6);
+$arr = json_decode($json, true);
 
-echo 'after compressing,time interval:'.(microtime(TRUE)-$start_time).', length:', strlen($input_compressed).'<br/>';
+$data = $arr['data'];
 
+echo "before compressing, data length is:".(strlen(json_encode($data))/1024/1024)."M \n";
+$str  = gzcompress(json_encode($data), 2);
+$str = bin2hex($str);
 
-$input_uncompressed = bzdecompress($input_compressed);
-echo 'after uncompressing,length:'.strlen($input_uncompressed).'<br/>';
+$myinfo = "in test_compress.php,[{$str}]\n";
+file_put_contents('/var/tmp/debug.log', $myinfo, FILE_APPEND);
 
-
-
-$start_time = microtime(TRUE);
-$input_compressed  = gzcompress($input,6);
-echo 'after compressing,time interval:'.(microtime(TRUE)-$start_time).', length:', strlen($input_compressed).'<br/>';
+echo "after compressing, data length is:".(strlen($str)/1024/1024)."M \n";
 
 
-$input_uncompressed = gzuncompress($input_compressed);
-echo 'after uncompressing,length:'.strlen($input_uncompressed).'<br/>';
+$arr['data'] = $str;
+
+echo "after compressing, total length is:".(strlen(json_encode($arr))/1024/1024)."M \n";
+print_r($arr);
+
+
+$ret = hex2bin($str);
+$ret = gzuncompress($ret);
+$arr['data'] = json_decode($ret, true);
+
+echo "after uncompressing, total length is:".(strlen(json_encode($arr))/1024/1024)."M \n";
+print_r($arr);
+
+
+
+
+
+

@@ -2,6 +2,43 @@
 
 header('Content-Type: text/html;charset=utf-8'); //modified by shiyf
 
+
+
+function ccMobileDecode($string = '', $en_key = '')
+{
+    $key = md5($en_key);
+    $x = 0;
+    $data = base64_decode($string);
+    $len = strlen($data);
+    $l = strlen($key);
+    $char = '';
+    $str = '';
+    for ($i = 0; $i < $len; $i++) {
+        if ($x == $l) {
+            $x = 0;
+        }
+        $char .= substr($key, $x, 1);
+        $x++;
+    }
+    for ($i = 0; $i < $len; $i++) {
+        if (ord(substr($data, $i, 1)) < ord(substr($char, $i, 1))) {
+            $str .= chr((ord(substr($data, $i, 1)) + 256) - ord(substr($char, $i, 1)));
+        } else {
+            $str .= chr(ord(substr($data, $i, 1)) - ord(substr($char, $i, 1)));
+        }
+    }
+    return $str;
+}
+
+$key = 'zg_bind_password';
+
+$input = 'nGtubJpvb5k=';
+$output = ccMobileDecode($input, $key);
+var_dump($input, $output);
+return;
+
+
+
 function create_sn($data, $secret = '')
 {
    unset($data['sn']);
