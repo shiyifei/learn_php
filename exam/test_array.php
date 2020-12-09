@@ -20,7 +20,8 @@ $arrE = array_merge_recursive($arrA, $arrB);
     //如果只给了一个数组并且该数组是数字索引的，则array_merge后的键名会以连续方式重新索引。 
     //如果有下标相同的元素，array_merge会顺延下标，但是 + 会用前一个数组的值覆盖后一个数组
     //所以array_merge后的元素总个数会比 + 操作后的元素多一些
-    //
+    //array_merge: 如果有相同字母键，则后一个数组会取代前者，+操作则相反
+    //array_merge: 如果是隐形数字下标键，则前后数组会顺延， +操作会舍弃后一个数组中相同下标的数据
 
 
 var_dump($arrA, $arrB);
