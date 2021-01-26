@@ -1,6 +1,10 @@
 <?php
 ini_set('error_reporting', E_ALL);
 
+/**
+ * 本示例演示galery cluster中mysql集群各节点服务器的增删改查等操作并与单实例数据库进行性能比较
+**/
+
 
 
 class Test_cluster 
@@ -350,7 +354,7 @@ class Test_cluster
             echo 'count='.$count."\n";
             echo 'in mysql cluster,time interval:'.(microtime(true)-$begin).'s'."\n";
 
-            //测试集群
+            //测试单机插入效果
             $begin = microtime(true);
             $insertSql = 'insert into users (username,email) values ';
             for ($i=200000; $i<300000; ++$i) {

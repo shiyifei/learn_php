@@ -32,4 +32,20 @@ var_dump($my_gen->send("main send"));
 echo "<br/>";
 echo "after send()<br/>";
 */
+
+
+function gen_zero_to_ten() {
+    for ($i = 1; $i <= 10; $i++) {
+        yield $i;
+    }
+}
+
+$generator = gen_zero_to_ten();
+foreach ($generator as $key => $value) {
+    echo $key ," => ", $value, "\n";
+    echo "is closed:", intval($generator->valid()),"\n";
+}
+
+echo "after foreach, is closed: ", intval($generator->valid()),"\n";
+
 ?>
