@@ -10,6 +10,9 @@ class WebScheduler extends Scheduler {
     protected $waitingForRead = [];
     protected $waitingForWrite = [];
 
+    //以下句子的
+    //$waitingForRead[124][0] = [$socket, [$task]];
+    //$waitingForRead[124][1] = [$task1,$task2];
     public function waitForRead($socket, Task $task) {
         if (isset($this->waitingForRead[(int) $socket])) {
             $this->waitingForRead[(int) $socket][1][] = $task;

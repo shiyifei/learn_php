@@ -141,14 +141,34 @@ class Test
 	}
 }
 
-$obj = new Test();
+/*$obj = new Test();
 $output = $obj->abc(1,124);
 echo "arrive here,output={$output}<hr/>";
 echo 'sayHello spend time: '.$obj->testInterval('sayHello').'ms <hr/>';
 echo 'splQueue spend time: '.$obj->testInterval('testSplQueue').'ms <hr/>';
 echo 'arrQueue spend time: '.$obj->testInterval('testArrQueue').'ms <hr/>';
 echo 'splStack spend time: '.$obj->testInterval('testSplStack').'ms <hr/>';
-echo 'arrStack spend time: '.$obj->testInterval('testArrStack').'ms <hr/>';
+echo 'arrStack spend time: '.$obj->testInterval('testArrStack').'ms <hr/>';*/
+
+//如何删除SplQueue中的元素呢？
+$splQueue = new SplQueue();
+$splQueue->enqueue('hello');
+$splQueue->enqueue('shiyf');
+$splQueue->enqueue('what');
+$splQueue->enqueue('are');
+$splQueue->enqueue('you');
+$splQueue->enqueue('doing');
+$splQueue->enqueue('now?');
+var_dump($splQueue);
+//用unset()方法,可以删除成功
+unset($splQueue[3]);
+echo 'after unset()，queue is:';
+var_dump($splQueue)."\n";
+
+//用SplQueue->offsetUnset()方法，也可以删除成功
+$splQueue->offsetUnset(2);
+echo 'after offsetUnset()，queue is:';
+var_dump($splQueue)."\n";
 
 /**
  * 结果显示如下：
