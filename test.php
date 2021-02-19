@@ -1,4 +1,11 @@
 <?php
+    $time = date('Ymd', strtotime('-7 day'));
+    var_dump(strtotime($time));
+
+    $time = date('Y-m-d', strtotime('-7 day'));
+    var_dump(strtotime($time));
+    return;
+
     $arr = [1,2,3,4,55,6,8,0,22];
     $output = array_filter($arr);
     var_dump($arr, $output);

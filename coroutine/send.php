@@ -1,5 +1,4 @@
 <?php
-
 function my_gen() {
     yield 'foo';
     $ret = (yield 'bar');
@@ -16,12 +15,11 @@ var_dump($gen->send('something'));
 
 //最终的输出结果： string(3) "bar"
 
-
 echo '<hr/>';
 $gen1 = my_gen();
 var_dump($gen1->current());
 $gen1->next();
-//$gen1->rewind();		//Fatal error: Uncaught Exception: Cannot rewind a generator that was already run
+//$gen1->rewind();//Fatal error: Uncaught Exception: Cannot rewind a generator that was already run
 var_dump($gen1->current());
 var_dump($gen1->send('something'));
 
