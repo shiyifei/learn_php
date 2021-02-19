@@ -11,7 +11,7 @@ $b = &$a;           //定义了一个变量$b, 该变量指向$a, 如果$a的值
 var_dump($a, $b);
 
 
-unset($b);          //这里释放了$b占用的内存，实际上其变量的内存地址被重置了。
+unset($b);          //这里释放了$b占用的内存，实际上其变量的内存地址被清空了。
 echo $a;			//这里不受影响，因为$a和$b的变量的内存地址是不同的。
 echo $b;			//这里会有报错，是一个Notice级别的报错信息，但由于错误级别设置到Warning，所以这里也不会显示。
 					//error_reporting(E_ALL)时会显示报错 Notice: Undefined variable: b in /home/shiyf/project/learn_php/exam/basic.php on line 11
