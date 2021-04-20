@@ -9,7 +9,7 @@ class RpcClient
     {
         $fp = stream_socket_client($host, $errno, $errstr);
         if (!$fp) {
-            throw new Exception ("stream_socket_client fail error:{$error}, errstr:{$errstr}");
+            throw new Exception ("stream_socket_client fail error:{$errno}, errstr:{$errstr}");
         }
 
         $req = ['jsonrpc'   =>'2.0', 

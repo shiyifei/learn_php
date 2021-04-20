@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <title>测试nodejs socket.io的客户端</title>
+</head>
+<body>
+<label>买车出价</label><input type="text" id="txtContent" /><br/>
+<button onclick="sendprice('user1')">用户1竞拍出价</button>
+<button onclick="sendprice('user2')">用户2竞拍出价</button>
+<br/>
+<label>实时出价信息</label><br/>
+<textarea rows="50" cols="60" id="areaInfo"></textarea>
+</body>
+    <script type="text/javascript" src="socket.io.js"></script>
+<script>    
+    socket = io.connect('http://192.168.3.125:8006');
+    socket.on("news", function(data){
+        var eleArea = document.getElementById("areaInfo");       
+        eleArea.innerHTML += data.msg;
+    });
+    var sendprice = function(user) {
+        console.log(user);
+        socket.emit("bid",{message:user+" buy car,provide price:"+document.getElementById("txtContent").value});
+        alert("出价成功");
+    }
+
+</script>
+</html>
