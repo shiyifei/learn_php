@@ -1,4 +1,72 @@
 <?php
+
+    $input = "192.168.3.118";
+    /*$output = eregi("^(10│172.16│192.168).", $input);
+    var_dump($input, $output);
+    echo '<hr/>';*/
+    $matches = '';
+    $output = preg_match('/^(10|172.16|192.168)./', $input, $matches);
+    var_dump($input, $output, $matches);
+    echo '<hr/>';
+
+    $output = get_real_ip();
+    var_dump($output);
+    echo '<hr/>';
+
+
+    function get_real_ip()
+    {
+        $ip=false;
+        //客户端IP 或 NONE 
+        if(!empty($_SERVER['HTTP_CLIENT_IP'])){
+            $ip = $_SERVER['HTTP_CLIENT_IP'];
+        }
+
+        //多重代理服务器下的客户端真实IP地址（可能伪造）,如果没有使用代理，此字段为空
+        if (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+            $ips = explode (', ', $_SERVER['HTTP_X_FORWARDED_FOR']);
+            if ($ip) { 
+                array_unshift($ips, $ip); 
+                $ip = false; 
+            }
+            $count = count($ips);
+            for ($i = 0; $i < $count; $i++) {
+                if (!preg_match('/^(10|172.16|192.168)./', $ips[$i])) {
+                    $ip = $ips[$i];
+                    break;
+                }
+            }
+        }
+
+        //客户端IP 或 (最后一个)代理服务器 IP
+        return ($ip ? $ip : $_SERVER['REMOTE_ADDR']);
+    }
+
+
+    
+    $input = 6442329600;
+
+    $output = date('Y-m-d H:i:s', $input);
+
+    var_dump($input, $output);
+    return;
+
+    
+
+    $listDay = ['2020-01-01', '2021-01-02'];
+    $arrByDay = array_fill_keys($listDay, ['visit_count'=>0, 'friend_count'=>0, 'order_count'=>0]);
+
+    var_dump($arrByDay);
+    return;
+
+    
+    $date = date_create('2021-02-01');
+    date_add($date, date_interval_create_from_date_string('1 month'));
+    date_sub($date, date_interval_create_from_date_string('1 day'));
+    echo date_format($date, 'Y-m-d');
+    return;
+
+
     $time = date('Ymd', strtotime('-7 day'));
     var_dump(strtotime($time));
 
