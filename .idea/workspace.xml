@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="754a6768-8718-4b21-b434-1f7bb968ef4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spl_object/logic/LogicA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spl_object/model/ModelA.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spl_object/model/ModelB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spl_object/no_register.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spl_object/old_register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learn_php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn_php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -724,6 +719,12 @@
       <change beforePath="$PROJECT_DIR$/socket/socket_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_client.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socket/socket_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socket/socket_sample_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_sample_server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/logic/LogicA.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/logic/LogicA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/logic/LogicB.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/logic/LogicB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/model/ModelA.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/model/ModelA.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/model/ModelB.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/model/ModelB.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/no_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/no_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/old_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/old_register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spl_object/spl_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/spl_register.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spl_object/spl_subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/spl_subject.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spl_object/test_queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/test_queue.php" afterDir="false" />
@@ -771,8 +772,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spl_object/old_register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="330">
+              <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -951,12 +952,12 @@
       <updated>1594179717579</updated>
       <workItem from="1594179719609" duration="114000" />
       <workItem from="1618930328927" duration="6792000" />
-      <workItem from="1619362002883" duration="4099000" />
+      <workItem from="1619362002883" duration="5326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11005000" />
+    <option name="totallyTimeSpent" value="12232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-7" width="1487" height="878" extended-state="6" />
@@ -1271,8 +1272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spl_object/old_register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="330">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
