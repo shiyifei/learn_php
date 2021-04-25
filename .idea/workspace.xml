@@ -2,32 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="754a6768-8718-4b21-b434-1f7bb968ef4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/account/userSync.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/learn_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/Xcrypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/encrypt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/getpinyin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pinyin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/test_rsa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spl_object/logic/LogicA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spl_object/model/ModelA.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spl_object/model/ModelB.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spl_object/no_register.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spl_object/old_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/learn_php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learn_php.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501241430.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501241430.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501241493.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501241493.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501482800.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501482800.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501482995.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501482995.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501483336.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501483336.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501483688.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501483688.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1501483749.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501483749.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AntService.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/AntService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyException.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/MyException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Xcrypt.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aaa.xls" beforeDir="false" afterPath="$PROJECT_DIR$/aaa.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/account/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/userDisable.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userDisable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/userLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/userLogout.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userLogout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/account/userSync.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userSync.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipay/AopSdk.php" beforeDir="false" afterPath="$PROJECT_DIR$/alipay/AopSdk.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipay/aop/AlipayMobilePublicMultiMediaClient.php" beforeDir="false" afterPath="$PROJECT_DIR$/alipay/aop/AlipayMobilePublicMultiMediaClient.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipay/aop/AlipayMobilePublicMultiMediaExecute.php" beforeDir="false" afterPath="$PROJECT_DIR$/alipay/aop/AlipayMobilePublicMultiMediaExecute.php" afterDir="false" />
@@ -607,17 +599,50 @@
       <change beforePath="$PROJECT_DIR$/alipay/wappay/refund.php" beforeDir="false" afterPath="$PROJECT_DIR$/alipay/wappay/refund.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipay/wappay/refundquery.php" beforeDir="false" afterPath="$PROJECT_DIR$/alipay/wappay/refundquery.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alipay/wappay/service/AlipayTradeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/alipay/wappay/service/AlipayTradeService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/area.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gongpj/area.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/learnStatic.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bid_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/bid_login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bid_operate.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/bid_operate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bid_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/bid_price.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/bootstrap.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/socket/chat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/chat_client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_client.js.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/socket/chat_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/city_gongpj.php" beforeDir="false" afterPath="$PROJECT_DIR$/gongpj/city_gongpj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/map_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/map_search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/baidu/map_search1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/map_search1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/learn_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/learn_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_cluster.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_cluster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_compact.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_compact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_compress.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_compress.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_curl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_elastic.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_elastic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_encode.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_encode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_error.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_error.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_execution_time.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_execution_time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_invoke.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_invoke.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_obstart.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_obstart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_queue.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_redis.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/test_urlencode.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_urlencode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/AntService.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/AntService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/bid_login.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/bid_login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/bid_operate.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/bid_operate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/bid_price.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/bid_price.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/multex_session1.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/multex_session1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/multex_session2.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/multex_session2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bid_price/multex_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/multex_test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/Xcrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/Xcrypt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/curl_multi.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/curl_multi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/download.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/encrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/encrypt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/filter_val.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/filter_val.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/getpinyin.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/getpinyin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pinyin.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/pinyin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/processimage.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/processimage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/rsacrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/rsacrypt.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_friso.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_friso.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_mongo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_password.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_pdo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_randomstr.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_randomstr.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test_rsa.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_rsa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coroutine/logger.php" beforeDir="false" afterPath="$PROJECT_DIR$/coroutine/logger.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coroutine/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/coroutine/send.php" afterDir="false" />
@@ -637,113 +662,77 @@
       <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/curl_multi.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/curl_multi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/download.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/download.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encrypt.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/about_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/about_array.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/basic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/graph.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/graph.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/quicksort.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/quicksort.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/recycle_str.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/recycle_str.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/test_array.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test_array.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/test_exam1.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test_exam1.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/test_recursive.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test_recursive.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/test_ref_dir.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test_ref_dir.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/exam/test_remove_repeat.php" beforeDir="false" afterPath="$PROJECT_DIR$/exam/test_remove_repeat.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception_A.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/exception_A.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception_B.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/exception_B.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exception_worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/exception_worker.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filter_val.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/filter_val.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/MyException.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/MyException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/exception_A.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/exception_A.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/exception_B.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/exception_B.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/exception_worker.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/exception_worker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exception/test_exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/test_exception.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/a.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/a.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator/gen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator/gen_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator/generator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getpinyin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_device.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_device.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_flex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_svg.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_svg.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/h5_websocket.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_websocket.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/gen.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator/gen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/gen_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator/gen_test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/generator.php" beforeDir="false" afterPath="$PROJECT_DIR$/generator/generator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongpj/area.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gongpj/area.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongpj/city_gongpj.php" beforeDir="false" afterPath="$PROJECT_DIR$/gongpj/city_gongpj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gongpj/test_gongpj.php" beforeDir="false" afterPath="$PROJECT_DIR$/gongpj/test_gongpj.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5/bootstrap.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/bootstrap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5/h5_device.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_device.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5/h5_flex.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_flex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5/h5_svg.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_svg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5/h5_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html5/h5_websocket.html" beforeDir="false" afterPath="$PROJECT_DIR$/html5/h5_websocket.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/http2/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/http2/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.nginx-debian.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501241430.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501241430.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501241493.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501241493.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501482800.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501482800.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501482995.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501482995.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501483336.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501483336.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501483688.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501483688.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/image/1501483749.png" beforeDir="false" afterPath="$PROJECT_DIR$/image/1501483749.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/jquery.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/npm.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/npm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/json3.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kong/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/kong/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/logout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_search.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/map_search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/map_search1.html" beforeDir="false" afterPath="$PROJECT_DIR$/baidu/map_search1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multex_session1.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/multex_session1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multex_session2.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/multex_session2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multex_test.php" beforeDir="false" afterPath="$PROJECT_DIR$/bid_price/multex_test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdo.sql" beforeDir="false" afterPath="$PROJECT_DIR$/basic/data/pdo.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pinyin.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/processimage.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/processimage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/account/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recycle_str.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis_cluster.php" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_cluster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis_publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_publish.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis_subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_subscribe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rsacrypt.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/rsacrypt.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket.io.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket.io.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket.io.js.1" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket.io.js.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket.io.js.2" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket.io.js.2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_client.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socket_sample_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_sample_server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespace/test_namespace.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespace/test_namespace.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespace/test_namespace1.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespace/test_namespace1.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/namespace/test_namespace2.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespace/test_namespace2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oAuth2/thirdlogin_byqq.php" beforeDir="false" afterPath="$PROJECT_DIR$/oAuth2/thirdlogin_byqq.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oss/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/oss/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis_cluster.php" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_cluster.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis_publish.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_publish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis_subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_subscribe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/redis_test.js" beforeDir="false" afterPath="$PROJECT_DIR$/redis/redis_test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/short_url/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/short_url/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/socket/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/socket_client.html" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/socket_client.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socket/socket_sample_server.js" beforeDir="false" afterPath="$PROJECT_DIR$/socket/socket_sample_server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/spl_register.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/spl_register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/spl_subject.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/spl_subject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spl_object/test_queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/spl_object/test_queue.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_client.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cluster.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_cluster.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_compact.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_compact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_compress.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_compress.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_curl.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_curl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_elastic.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_elastic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_encode.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_encode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_error.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_error.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/exception/test_exception.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_execution_time.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_execution_time.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_friso.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_friso.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_gd.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_gd.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_gongpj.php" beforeDir="false" afterPath="$PROJECT_DIR$/gongpj/test_gongpj.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_invoke.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_invoke.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_mongo.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_mongo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_namespace.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespace/test_namespace.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_namespace1.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespace/test_namespace1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_namespace2.php" beforeDir="false" afterPath="$PROJECT_DIR$/namespace/test_namespace2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_obstart.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_obstart.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_password.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_password.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_pdo.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_pdo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_queue.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_queue.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_randomstr.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/test_randomstr.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_redis.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_redis.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_rpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/test_rpc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_rsa.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/test_upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_urlencode.php" beforeDir="false" afterPath="$PROJECT_DIR$/basic/test_urlencode.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thirdlogin_byqq.php" beforeDir="false" afterPath="$PROJECT_DIR$/oAuth2/thirdlogin_byqq.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thrift.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload_h5.html" beforeDir="false" afterPath="$PROJECT_DIR$/upload/upload_h5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload_h5.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/upload_h5.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/upload_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/upload_process.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userDisable.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userDisable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userLogout.php" beforeDir="false" afterPath="$PROJECT_DIR$/account/userLogout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userSync.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userguide.txt" beforeDir="false" afterPath="$PROJECT_DIR$/account/userguide.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/test_upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/test_upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/upload_h5.html" beforeDir="false" afterPath="$PROJECT_DIR$/upload/upload_h5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/upload_h5.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/upload_h5.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/upload_process.php" beforeDir="false" afterPath="$PROJECT_DIR$/upload/upload_process.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -768,75 +757,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bid_price/login.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/info.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
+        <entry file="file://$PROJECT_DIR$/spl_object/spl_register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="193" column="6" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#6#57#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_rpc.php">
+        <entry file="file://$PROJECT_DIR$/spl_object/old_register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-286">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            <state relative-caret-position="176">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bid_price/logout.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/encrypt.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2347">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bid_price/AntService.php">
+        <entry file="file://$PROJECT_DIR$/spl_object/logic/LogicA.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="66">
               <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spl_object/logic/LogicB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spl_object/no_register.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spl_object/model/ModelA.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spl_object/model/ModelB.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -883,13 +864,20 @@
         <option value="$PROJECT_DIR$/socket/chat.html" />
         <option value="$PROJECT_DIR$/encrypt.php" />
         <option value="$PROJECT_DIR$/AntService.php" />
+        <option value="$PROJECT_DIR$/spl_object/model/ModelA.php" />
+        <option value="$PROJECT_DIR$/spl_object/model/ModelB.php" />
+        <option value="$PROJECT_DIR$/spl_object/no_register.php" />
+        <option value="$PROJECT_DIR$/spl_object/logic/LogicA.php" />
+        <option value="$PROJECT_DIR$/spl_object/logic/LogicB.php" />
+        <option value="$PROJECT_DIR$/spl_object/spl_register.php" />
+        <option value="$PROJECT_DIR$/spl_object/old_register.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="308" />
+    <option name="x" value="307" />
     <option name="y" value="135" />
-    <option name="width" value="1382" />
+    <option name="width" value="1383" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectView">
@@ -908,7 +896,13 @@
             <path>
               <item name="learn_php" type="b2602c69:ProjectViewProjectNode" />
               <item name="learn_php" type="462c0819:PsiDirectoryNode" />
-              <item name="bid_price" type="462c0819:PsiDirectoryNode" />
+              <item name="spl_object" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn_php" type="462c0819:PsiDirectoryNode" />
+              <item name="spl_object" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -956,17 +950,19 @@
       <option name="presentableId" value="Default" />
       <updated>1594179717579</updated>
       <workItem from="1594179719609" duration="114000" />
-      <workItem from="1618930328927" duration="6595000" />
+      <workItem from="1618930328927" duration="6792000" />
+      <workItem from="1619362002883" duration="4099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6709000" />
+    <option name="totallyTimeSpent" value="11005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="-7" width="1487" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25367904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2571829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -991,45 +987,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baidu/map_search1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/map_search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baidu/map.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/test_gd.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1496">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/test_friso.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/test_execution_time.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/exception/test_exception.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1090,9 +1047,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recycle_str.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/recycle_str.php" />
     <entry file="file://$PROJECT_DIR$/common/processimage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -1156,9 +1111,7 @@
     <entry file="file://$PROJECT_DIR$/bid_price/bid_login.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat_client.js.bak">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chat_client.js.bak" />
     <entry file="file://$PROJECT_DIR$/socket/chat_client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1848" />
@@ -1200,12 +1153,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html.1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html.1" />
+    <entry file="file://$PROJECT_DIR$/a.yaml" />
     <entry file="file://$PROJECT_DIR$/basic/data/pdo.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -1213,9 +1162,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.nginx-debian.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.nginx-debian.html" />
     <entry file="file://$PROJECT_DIR$/bid_price/multex_session1.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1223,15 +1170,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bid_price/logout.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/bid_price/login.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/info.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4246">
+          <caret line="261" column="6" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bid_price/logout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/common/encrypt.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2347">
+        <state relative-caret-position="748">
           <caret line="34" column="24" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="24" />
         </state>
       </provider>
@@ -1239,7 +1203,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -1253,27 +1217,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="193" column="6" selection-start-line="193" selection-start-column="6" selection-end-line="193" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_rpc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
+        <state relative-caret-position="22">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/model/ModelA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/model/ModelB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/logic/LogicA.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/logic/LogicB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/no_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/spl_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#6#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spl_object/old_register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
