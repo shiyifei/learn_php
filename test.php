@@ -1,5 +1,120 @@
 <?php
 
+    $request_id = '1';
+    $time = time();
+    $key = 'test123';
+
+    $action_token = md5($request_id.$time.$key);
+    var_dump($request_id, $time, $action_token);
+
+    return;
+
+
+    $a = null;
+    if (isset($a)) {
+        echo 'is set($a) is true'."\n";
+    } else {
+        echo 'is set($a) is false'."\n";
+    }
+    return;
+
+    $arrA = array (
+  'type' => 1,
+  'rows' => 
+  array (
+    0 => 
+    array (
+      'score' => '21',
+      0 => '21',
+      'group_name' => '法规大家庭①',
+      1 => '法规大家庭①',
+      'slogan' => '大家相互督促学习',
+      2 => '大家相互督促学习',
+      'rl_groupid' => 'gg803057617007',
+      3 => 'gg803057617007',
+    ),
+    1 => 
+    array (
+      'score' => '6',
+      0 => '6',
+      'group_name' => '法规保过战队01',
+      1 => '法规保过战队01',
+      'slogan' => '',
+      2 => '',
+      'rl_groupid' => 'gg8030576198',
+      3 => 'gg8030576198',
+    ),
+    2 => 
+    array (
+      'score' => '5',
+      0 => '5',
+      'group_name' => '管理大家庭',
+      1 => '管理大家庭',
+      'slogan' => '大家相互督促学习',
+      2 => '大家相互督促学习',
+      'rl_groupid' => 'gg803057616901',
+      3 => 'gg803057616901',
+    ),
+  ),
+);
+    $input = gzcompress(json_encode($arrA), 2);
+
+    $a = gzuncompress($input);
+
+    $b = json_decode($a, true);
+
+    var_dump($input, $a, $b);
+    return;
+
+
+
+    $arrA = ['a','b','c'];
+
+    $output1 = implode(',', $arrA);
+    $output2 = implode('","', $arrA);
+
+    var_dump($arrA, $output1, $output2);
+
+    return;
+
+
+    
+    $a = ['a'=>1, 'b'=>2,'c'=>3];
+    $input = gzcompress(json_encode($a), 2);
+    $output = json_decode(gzuncompress($input), true);
+
+    var_dump($input, $output);
+    return;
+
+
+    $month = '2021-05';
+    $a = strtotime($month);
+    $b = date('Y-m-d H:i:s', $a);
+
+    var_dump($a, $b);
+    return;
+
+    $input = 'https://edu.zhulong.com/lesson/4606-1.html#f=ucenter_ygmkcxq';
+    $pattern = '/(?P<digit>\d{1,10})\-\d{1,4}/';
+    $ret = preg_match($pattern, $input, $retArr);
+    var_dump($retArr);
+    var_dump($ret);
+    die();
+
+
+    $input = '<script>alert(aaa)</script>';
+    $output = strip_tags($input);
+    var_dump($output);
+    return;
+
+    $input = '春天里';
+    $pattern = '/^[\x{4e00}-\x{9fa5}a-zA-Z0-9]+$/u';
+    $matches = [];
+    $result = preg_match($pattern, $input);
+    var_dump($result);
+    var_dump($matches);
+    return;
+
     $input = "192.168.3.118";
     /*$output = eregi("^(10│172.16│192.168).", $input);
     var_dump($input, $output);
